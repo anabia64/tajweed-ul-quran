@@ -1,0 +1,329 @@
+ body{
+    background-color:ghostwhite;
+    
+ }
+#ayat{
+    position: relative;
+    left:900px ;
+    top: 150px; 
+    display: inline;
+    font-size: 60px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hadith{
+    position: relative;
+    left:-400px;
+    top: 150px; 
+    display: inline;
+    font-size: 50px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#intro{
+    width: 700px;
+    margin-bottom: 0px;
+}
+#quote , #quote2{
+    float: right;
+}
+@keyframes mymove {
+    from {left: 10px;}
+    to {left: 300px;}
+  }
+  #subquote{
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+   
+  }
+  #subquote{
+    animation-timing-function: linear;
+  }
+#quote {
+    position: relative;
+    top: 150px;
+  
+}
+#quote2{
+    position: relative;
+    bottom: 600px;
+}
+.mainheading{
+    padding-top: 30px;
+     padding-bottom: 20px; 
+     text-shadow: 4px 4px gainsboro; 
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+.makharij{
+    position: relative;
+    left: 25%;
+}
+.makharijniti{
+    position: relative;
+    left: 25%;
+}
+.makharijlith2{
+    position: relative;
+    left: 25%;
+}
+.makharijhaff{
+    position: relative;
+    left: 25%;
+}
+.tanween{
+    margin-left: 200px;
+}
+#khari{
+    margin-left: 200px;
+}
+ 
+ @media screen and (max-width: 979px){
+     #ayat, #hadith{
+        display: none;
+     }
+     #intro {
+        width: 70%;
+    }
+    #quote{
+        float: left;
+        position: relative;
+        left: 40px;
+        top: -10px;
+    }
+    #quote2{
+        float: left;
+        position: relative;
+        left: 40px;
+        top: 10px;
+    }
+    .makharij{
+        height: 200px;
+       position: relative;
+       left: 5%;
+    }
+    .makharijniti{
+        height: 180px;
+        position: relative;
+       left: 5%;
+
+    }
+    .makharijlith{
+        height: 180px;
+        position: relative;
+       left: 5%;
+
+    }
+    .makharijlith2{
+        height: 160px;
+        position: relative;
+       left: 2%;
+    }
+    .makharijhaff{
+        height: 160px;
+        position: relative;
+       left: 2%;
+    }
+    .mainpara{
+        padding: 20px;
+    }
+    #mutaharrik{
+        height: 250px;
+        position: relative;
+        left:  10%;
+        
+    }
+    .tanween{
+        height: 100px;
+        margin-left: -20px;
+    }
+    #khari{
+        height: 80px;
+        margin-left: -10px
+    }
+    .m1{
+        height: 120px;
+        margin: 10px;
+        padding: 10px;
+         
+    }
+    .m3{
+        height: 50px;
+        margin: 10px;
+        padding: 10px;
+    }
+    #para1{
+        font-size: 16px;
+        padding-left: 5px;
+        
+    }
+    .mainheading{
+        margin: 10px;
+        font-size: 26px;
+    }
+    .ghunna{
+    height: 180px;
+    margin-right: 20px;
+}
+#subvowel{
+    font-weight: lighter;
+}
+#idhaar{
+    height: 350px;
+    margin: 10px;
+ 
+}
+#laamra{
+    height: 100px;
+}
+#iqlaab{
+    height: 150px;
+}
+
+#laamraex{
+    height: 180px;
+}
+#idghaammal{
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+#ikhfaa{
+    height: 800px;
+}
+.waqf{
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.waqf2{
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+#stop{
+    height: 230px;
+}
+#raa{
+    height: 400px;
+}
+#mainlogo{
+    height: 50px;
+}
+#bag2{
+    height: 4100px;
+}
+}
+
+#pg2{
+    background-color: gainsboro ;
+}
+#vowels{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.container{
+    margin-top: -50px;
+}
+.mainvowels{
+    padding-left: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container{
+    width: 70%; 
+    background-color: white; 
+    border-radius: 30px; 
+    border: 1px solid gainsboro; 
+    font-size: 24px; 
+    box-shadow: 5px 5px 8px 10px 	#c7bdc9;
+}
+.heading1{
+   text-align: center;
+   padding: 20px; 
+   padding-top: 30px; 
+   text-shadow: gainsboro 3px 3px ; 
+}
+ .carousel-item{
+     height: 500px;
+     width: 100%;
+ }
+ #carouselExampleControls{
+     margin-top: -120px;
+ }
+
+  .bg {
+    background-image: url( "img/bg.JPG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg2{
+      background-image: url("img/bg2.JPG");
+      height: 2400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;  
+    }
+    .bg3{
+        background-image: url("img/bg3.PNG");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .bg4{
+        background-image: url("img/bg4.JPG");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .mad{
+        text-align: center;
+    }
+   
+    .ghunna{
+        position: relative;
+        left: 5%;
+    }
+    .idghaammal{
+            height: 50px;
+            margin: 10px;
+            padding: 10px;
+            
+    }
+    .bg5{
+        background-image: url("img/bg5.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .bg6{
+        background-image: url("img/bg6.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .bg7{
+        background-image: url("img/bg7.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .bg8{
+        background-image: url("img/bg8.jpg");
+        height: 2400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+      }
+    
+    
